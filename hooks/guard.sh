@@ -16,7 +16,7 @@ esac
 
 # Check auth is still valid (reads local session file — fast, no network call)
 if ! zapless auth status > /dev/null 2>&1; then
-  printf '{"reason": "Zapless session expired or not found. Run: zapless auth login --token <your-token>. Get your token at: https://zapless.com/dashboard"}'
+  printf '{"reason": "Zapless session expired or not found. Run: zapless auth login --token <your-token>. Get your token at: https://zapless.app/dashboard"}'
   exit 2
 fi
 

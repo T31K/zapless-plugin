@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-DASHBOARD_URL="https://zapless.com/dashboard"
+DASHBOARD_URL="https://zapless.app/dashboard"
 INSTALL_URL="https://api.t31k.cloud/api/zapless/install.sh"
 APPS_FILE="$HOME/.zapless/apps.json"
 
@@ -34,7 +34,7 @@ fi
 
 # 2. Check authenticated
 if ! zapless auth status > /dev/null 2>&1; then
-  emit "[Zapless] Not authenticated.\n\nVisit https://zapless.com/connect — it will give you the exact command to run in your terminal."
+  emit "[Zapless] Not authenticated.\n\nVisit https://zapless.app/connect — it will give you the exact command to run in your terminal."
   exit 0
 fi
 

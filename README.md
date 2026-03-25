@@ -1,6 +1,6 @@
 # zapless-plugin
 
-> Claude Code + OpenClaw plugin for [Zapless](https://zapless.com)
+> Claude Code + OpenClaw plugin for [Zapless](https://zapless.app)
 
 Connect your apps on the Zapless dashboard. Install this plugin. Your agent knows what to do.
 
@@ -21,7 +21,7 @@ It also watches for new apps mid-session and updates automatically.
 
 - [Claude Code](https://claude.ai/code) v1.0.33+
 - [Zapless CLI](https://github.com/T31K/zapless-cli) installed (`npm i -g zapless` or via installer)
-- A Zapless account — [zapless.com](https://zapless.com)
+- A Zapless account — [zapless.app](https://zapless.app)
 - `jq` installed (`brew install jq`)
 
 ## Install
@@ -36,7 +36,7 @@ Then authenticate if you haven't already:
 zapless auth login --token <your-install-token>
 ```
 
-Get your token from [zapless.com/dashboard](https://zapless.com/dashboard).
+Get your token from [zapless.app/dashboard](https://zapless.app/dashboard).
 
 ## How It Works
 
