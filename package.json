@@ -1,0 +1,11 @@
+{
+  "name": "zapless-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code + OpenClaw plugin for Zapless",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/T31K/zapless-plugin"
+  },
+  "author": "T31K",
+  "license": "MIT"
+}

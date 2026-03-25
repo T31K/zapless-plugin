@@ -1,0 +1,5 @@
+{
+  "name": "zapless",
+  "version": "1.0.0",
+  "description": "Give your OpenClaw agent access to Gmail, GitHub, Slack, Notion and more."
+}

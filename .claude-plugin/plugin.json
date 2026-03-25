@@ -1,0 +1,10 @@
+{
+  "name": "zapless",
+  "description": "Give your Claude Code agent access to Gmail, GitHub, Slack, Notion and more — without touching OAuth or credentials.",
+  "version": "1.0.0",
+  "author": {
+    "name": "T31K"
+  },
+  "homepage": "https://zapless.com",
+  "repository": "https://github.com/T31K/zapless-plugin"
+}
