@@ -34,7 +34,7 @@ fi
 
 # 2. Check authenticated
 if ! zapless auth status > /dev/null 2>&1; then
-  emit "[Zapless] Not authenticated.\n\nGet your token at $DASHBOARD_URL and run:\n\`\`\`bash\nzapless auth login --token <your-token>\n\`\`\`"
+  emit "[Zapless] Not authenticated.\n\nVisit https://zapless.com/connect — it will give you the exact command to run in your terminal."
   exit 0
 fi
 
