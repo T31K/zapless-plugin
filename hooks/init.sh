@@ -3,7 +3,7 @@
 set -euo pipefail
 
 DASHBOARD_URL="https://zapless.app/dashboard"
-INSTALL_URL="https://api.t31k.cloud/api/zapless/install.sh"
+INSTALL_URL="https://zapless.app/install.sh"
 APPS_FILE="$HOME/.zapless/apps.json"
 
 escape_for_json() {

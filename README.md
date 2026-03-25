@@ -60,7 +60,7 @@ More coming as Zapless adds integrations.
 
 **CLI not found after installing plugin:**
 ```bash
-curl -fsSL https://api.t31k.cloud/api/zapless/install.sh | sh
+curl -fsSL https://zapless.app/install.sh | sh
 ```
 
 **Auth errors:**
