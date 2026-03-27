@@ -1,0 +1,14 @@
+{
+  "name": "zapless",
+  "owner": { "name": "T31K" },
+  "plugins": [
+    {
+      "name": "zapless",
+      "description": "OAuth management for your agents — Gmail, GitHub, Slack, Notion and more.",
+      "source": {
+        "source": "npm",
+        "package": "@t31k/zapless"
+      }
+    }
+  ]
+}

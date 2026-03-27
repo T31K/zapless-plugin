@@ -1,11 +1,17 @@
 {
-  "name": "zapless-plugin",
-  "version": "1.0.0",
-  "description": "Claude Code + OpenClaw plugin for Zapless",
+  "name": "@t31k/zapless",
+  "version": "1.0.1",
+  "description": "OAuth management for your agents — Gmail, GitHub, Slack, Notion and more.",
+  "main": "./index.js",
+  "type": "module",
+  "openclaw": {
+    "extensions": ["./index.js"]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/T31K/zapless-plugin"
   },
+  "keywords": ["openclaw", "claude", "agent", "oauth", "gmail", "github", "slack", "notion"],
   "author": "T31K",
   "license": "MIT"
 }
