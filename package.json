@@ -1,6 +1,6 @@
 {
   "name": "@t31k/zapless",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OAuth management for your agents — Gmail, GitHub, Slack, Notion and more.",
   "main": "./index.js",
   "type": "module",

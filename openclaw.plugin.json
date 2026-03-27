@@ -3,6 +3,11 @@
   "name": "Zapless",
   "kind": "lifecycle",
   "main": "./index.js",
-  "version": "1.0.0",
-  "description": "OAuth management for your agents — Gmail, GitHub, Slack, Notion and more."
+  "version": "1.0.1",
+  "description": "OAuth management for your agents — Gmail, GitHub, Slack, Notion and more.",
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  }
 }
